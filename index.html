@@ -1,0 +1,47 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Animehub</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <style>
+    html { scroll-behavior: smooth; }
+  </style>
+</head>
+<body class="bg-gray-900 text-white">
+
+  <!-- Intro Section -->
+  <section class="h-screen bg-cover bg-center flex flex-col justify-center items-center text-center" style="background-image: url('./assets/images/banner.jpg');">
+    <img src="./assets/images/logo.png" alt="Animehub Logo" class="w-40 mb-6">
+    <h1 class="text-4xl font-bold mb-4">Chào mừng đến với Animehub</h1>
+    <p class="text-xl mb-8">Thế giới anime dành cho mọi lứa tuổi</p>
+    <a href="#explore" class="px-6 py-3 bg-blue-600 hover:bg-blue-700 text-white rounded-full transition">Khám phá ngay</a>
+  </section>
+
+  <!-- Explore Section -->
+  <section id="explore" class="py-20 px-4">
+    <div class="max-w-6xl mx-auto">
+      <h2 class="text-3xl font-bold mb-6">Bảng xếp hạng Anime</h2>
+      <div class="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-6">
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+          <img src="./assets/images/anime1.jpg" alt="Anime 1" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">Anime Tên 1</h3>
+            <p class="text-sm text-gray-400">Tác giả: Vinh Kai</p>
+          </div>
+        </div>
+        <div class="bg-gray-800 rounded-lg overflow-hidden shadow-lg">
+          <img src="./assets/images/anime2.jpg" alt="Anime 2" class="w-full h-48 object-cover">
+          <div class="p-4">
+            <h3 class="text-xl font-semibold">Anime Tên 2</h3>
+            <p class="text-sm text-gray-400">Tác giả: Vinh Kai</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+</body>
+</html>
