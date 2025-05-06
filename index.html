@@ -2,24 +2,40 @@
 <!DOCTYPE html>
 <html lang="vi">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Animehub KV</title>
-  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
-  <style>
-    body {
-      background-image: url('nen.jpg');
-      background-size: cover;
-      background-position: center;
-      background-attachment: fixed;
-    }
-  </style>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Animehub</title>
+  <link rel="stylesheet" href="style.css" />
 </head>
-<body class="bg-black bg-opacity-80 text-white">
-  <section class="text-center py-24 backdrop-blur-sm">
-    <img src="logo.png" alt="Animehub KV Logo" class="mx-auto mb-6 w-40">
-    <h1 class="text-5xl font-bold tracking-wide">Animehub KV</h1>
-    <p class="text-xl mt-4 italic">Cánh cổng dẫn lối đến thế giới cảm xúc vô tận</p>
+<body>
+  <section class="intro">
+    <img src="logo.png" alt="Logo Animehub" class="logo" />
+    <h1 class="tagline">Cánh cổng dẫn lối đến thế giới cảm xúc vô tận</h1>
+    <a href="#explore" class="btn">Khám phá</a>
+  </section>
+
+  <section id="explore">
+    <div class="section">
+      <h2>Bảng Xếp Hạng</h2>
+      <div class="anime-grid">
+        <div class="anime-card"><img src="assets/anime1.jpg"><p>Jujutsu Kaisen</p></div>
+        <div class="anime-card"><img src="assets/anime2.jpg"><p>Attack on Titan</p></div>
+        <div class="anime-card"><img src="assets/anime3.jpg"><p>Demon Slayer</p></div>
+      </div>
+    </div>
+
+    <div class="section">
+      <h2>Anime Sắp Chiếu</h2>
+      <ul>
+        <li>Bleach: Hell Arc - Tháng 7/2025</li>
+        <li>Solo Leveling Phần 2 - Tháng 10/2025</li>
+      </ul>
+    </div>
+
+    <div class="section">
+      <h2>Thể Loại</h2>
+      <p>Hành động, Lãng mạn, Phiêu lưu, Giả tưởng, Kịch tính,...</p>
+    </div>
   </section>
 </body>
 </html>
